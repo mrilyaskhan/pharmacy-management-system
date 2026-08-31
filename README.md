@@ -36,30 +36,27 @@ The application is designed with a modular structure, making core pharmacy opera
 ## Staff Management
 <img width="1892" height="860" alt="image" src="https://github.com/user-attachments/assets/907afb18-82d7-43eb-bb40-d9d4bfaf880e" />
 
+## Project Structure
+
 pharmacy-management-system/
 │
-├── application/
-│   ├── config/
+├── application/       # CodeIgniter application
 │   ├── controllers/
 │   ├── models/
 │   ├── views/
-│   ├── helpers/
-│   ├── libraries/
-│   └── ...
+│   └── config/
 │
-├── assets/
+├── assets/             # CSS, JavaScript, images & libraries
 │   ├── css/
 │   ├── js/
-│   ├── images/
-│   └── ...
+│   └── images/
 │
-├── system/
+├── system/             # CodeIgniter core
+├── tests/              # Application tests
 │
-├── tests/
-│
-├── .htaccess
-├── .editorconfig
-├── composer.json
-├── index.php
-├── license.txt
+├── index.php           # Application entry point
+├── composer.json       # PHP dependencies
+├── .htaccess           # URL configuration
 └── README.md
+
+
