@@ -1,0 +1,19 @@
+# IDE
+.idea/
+
+# Local credentials / project notes
+01 LOGIN DETAILS & PROJECT INFO.txt
+
+# Local database files
+DATABASE FILE/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*

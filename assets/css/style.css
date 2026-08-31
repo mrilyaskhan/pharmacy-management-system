@@ -1,0 +1,504 @@
+body {
+	background: #f4f4f4;
+}
+.navbar {
+	min-height: 33px !important;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+/* nav bar size fixing*/
+.navbar-nav > li > a,
+.navbar-brand {
+	padding-top: 6px !important;
+	padding-bottom: 0 !important;
+	height: 33px;
+}
+
+/* Main Theam color*/
+.main-color-bg {
+	background-color: #6c797f !important;
+	border-color: #6c797f !important;
+	color: #f4f4f4 !important;
+}
+/* nav bar color fixing*/
+.navbar-default {
+	background-color: #5f6d73;
+	border-color: #6c797f;
+}
+.navbar-default .navbar-brand {
+	color: #ceddef;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #ceddef;
+}
+.navbar-default .navbar-text {
+	color: #ceddef;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ceddef;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ceddef;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ceddef;
+	background-color: #5893d4;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #ceddef;
+	background-color: #5893d4;
+}
+.navbar-default .navbar-toggle {
+	border-color: #5893d4;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #5893d4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ceddef;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #ceddef;
+}
+.navbar-default .navbar-link {
+	color: #ceddef;
+}
+.navbar-default .navbar-link:hover {
+	color: #ceddef;
+}
+
+/*Custom*/
+.main-color-bg {
+	background-color: #6c797f !important;
+	border-color: #6c797f !important;
+	color: #f4f4f4;
+}
+
+/*Header*/
+#header {
+	background: #333333;
+	color: #ffffff;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+#header .create {
+	padding-top: 20px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	background: #cccccc;
+	color: #333333;
+}
+.breadcrumb a {
+	color: #333333;
+}
+
+/*Footer*/
+#footer {
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 30px;
+}
+/*Footer*/
+#login {
+	margin-top: 30px; /*Push down*/
+}
+
+@media (max-width: 991px) {
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+		color: #729d39;
+	}
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+		color: #36622b;
+	}
+	.navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+		color: #36622b;
+		background-color: #729d39;
+	}
+}
+
+@media (max-width: 1199px) {
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+		color: #729d39;
+	}
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+		color: #36622b;
+	}
+	.navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+		color: #36622b;
+		background-color: #729d39;
+	}
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+	color: #729d39;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+	color: #36622b;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+	color: #36622b;
+	background-color: #729d39;
+}
+
+/* =========================
+   PROFESSIONAL LOGIN
+========================= */
+
+#main {
+    padding: 35px 15px 70px;
+    overflow-x: hidden;
+}
+
+/* Login Card */
+#main .well {
+    background: #f8fafc;
+    border: 1px solid #d9e1e7;
+    border-radius: 10px;
+    padding: 22px 25px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Form */
+#main .form-group {
+    margin-bottom: 17px;
+}
+
+#main .form-group label {
+    color: #3d464d;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Inputs */
+#main .form-control {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #cbd3da;
+    background: #fff;
+    box-shadow: none;
+}
+
+#main .form-control:focus {
+    border-color: #6c797f;
+    box-shadow: 0 0 0 2px rgba(108, 121, 127, 0.12);
+}
+
+/* Buttons */
+#main .btn {
+    height: 30px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+/* Remove horizontal overflow */
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* Footer */
+#footer {
+    padding: 12px;
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* =========================
+   DASHBOARD CARDS
+========================= */
+
+#main {
+    padding-top: 15px;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+}
+
+/* Dashboard panel */
+#main .panel {
+    border: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Panel heading */
+#main .panel-heading {
+    padding: 15px 20px;
+    border: none;
+}
+
+#main .panel-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Card area */
+#main .panel-body {
+    padding: 20px 10px;
+}
+
+/* Remove Bootstrap well default look */
+#main .dash-box {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    min-height: 115px;
+    margin: 10px;
+    padding: 18px 15px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+#main .dash-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.13);
+}
+
+/* Number + icon */
+#main .dash-box h2 {
+    margin: 5px 0 8px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Card title */
+#main .dash-box h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+
+/* Icons */
+#main .dash-box h2 span {
+    margin-right: 6px;
+    font-size: 22px;
+}
+
+#main .dash-box {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    min-height: 115px;
+    margin: 10px;
+    padding: 18px 15px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    #main .panel-body {
+        padding: 15px 5px;
+    }
+
+    #main .dash-box {
+        margin: 8px 5px;
+    }
+
+}
+
+/* =========================================
+   CREATE MEDICINE PAGE
+========================================= */
+
+#main {
+    padding-top: 25px;
+    padding-bottom: 70px;
+    overflow-x: hidden;
+}
+
+/* =========================================
+   BREADCRUMB
+========================================= */
+
+#breadcrumb {
+    border-bottom: 1px solid #ddd;
+}
+
+#breadcrumb .breadcrumb {
+    margin-bottom: 0;
+    padding: 10px 15px;
+}
+
+/* =========================================
+   LEFT MENU
+========================================= */
+
+#main .list-group {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Normal menu items */
+#main .list-group-item:not(.active) {
+    padding: 11px 15px;
+    color: #444;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Normal item hover */
+#main .list-group-item:not(.active):hover {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Keep Create Option ORIGINAL */
+#main .list-group-item.active {
+    background-color: #6c797f !important;
+    border-color: #6c797f !important;
+    color: #f4f4f4 !important;
+}
+
+/* Menu icons */
+#main .list-group-item span {
+    width: 22px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* =========================================
+   PANELS
+========================================= */
+
+#main .panel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Panel headings */
+#main .panel-heading {
+    padding: 12px 16px;
+}
+
+/* Panel title */
+#main .panel-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* =========================================
+   FORM
+========================================= */
+
+#main .panel-body {
+    padding: 20px;
+}
+
+#main label {
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* Inputs */
+#main .form-control {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+/* Input focus */
+#main .form-control:focus {
+    border-color: #6c797f;
+    box-shadow: 0 0 4px rgba(108, 121, 127, 0.25);
+}
+
+/* Create button */
+#main .btn-primary {
+    height: 38px;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* =========================================
+   MEDICINE TABLE
+========================================= */
+
+#main .table {
+    margin-bottom: 0;
+}
+
+/* Table header */
+#main .table thead th {
+    background: #f3f4f5;
+    color: #444;
+    font-weight: 600;
+    padding: 11px 8px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table rows */
+#main .table tbody td {
+    padding: 9px 8px;
+    vertical-align: middle;
+}
+
+/* Row hover */
+#main .table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+/* Delete button */
+#main .table .btn-danger {
+    padding: 5px 13px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    #main {
+        padding-top: 15px;
+        padding-bottom: 60px;
+    }
+
+    #main .panel-body {
+        padding: 15px;
+    }
+
+    #main .list-group {
+        margin-bottom: 20px;
+    }
+
+    #main .table {
+        font-size: 13px;
+    }
+}
